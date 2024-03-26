@@ -1,0 +1,8 @@
+  datasource:
+    url: jdbc:postgresql://localhost:5433/ordersdb
+    username: postgres
+    password: generic
+  jpa:
+   show-sql: true
+   hibernate:
+    ddl-auto: update    

@@ -1,0 +1,8 @@
+  datasource:
+    url: jdbc:postgresql://5433/orders_test_db
+    username: postgres
+    password: generic
+  jpa:
+   show-sql: true
+   hibernate:
+    ddl-auto: update    
