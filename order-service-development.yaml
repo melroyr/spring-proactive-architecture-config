@@ -1,9 +1,13 @@
+
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/ordersdb
-    username: postgres
-    password: generic
+    url: jdbc:mysql://localhost:3306/ordersdb
+    username: root
+    password: root
+  
   jpa:
-   show-sql: true
-   hibernate:
-    ddl-auto: update    
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+
